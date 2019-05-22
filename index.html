@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SignBoard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../jumble/jumble.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#demo6 h1').append(" 180, 160, 90").jumble([180, 160, 90], [230, 20, 130], true, false, 1000);
+            $('#demo7 h1').jumble([180, 160, 90], [230, 20, 130], false, false, 1000);
+            $('#demo8 h1').jumble([180, 160, 90], [230, 20, 130], false, true, 1000);
+            $('#demo9 h1').jumble([180, 160, 90], [230, 20, 130], true, true, 1000);
+
+            $('#demo11 h1').jumble([255, 0, 0], [230, 20, 130], true, true, 1000);
+            $('#demo12 h1').jumble([0, 255, 0], [230, 20, 130], true, true, 1000);
+            $('#demo13 h1').jumble([0, 0, 255], [230, 20, 130], true, true, 1000);
+            $('#demo14 h1').jumble([255, 0, 0], [0, 20, 130], true, true, 1000);
+            $('#demo15 h1').jumble([0, 255, 0], [0, 20, 130], true, true, 1000);
+            $('#demo16 h1').jumble([0, 0, 255], [0, 20, 130], true, true, 1000);
+            $('#demo17 h1').jumble([0, 0, 0], [255, 255, 255], true, true, 1000);
+            $('#demo18 h1').jumble([0, 0, 0], [230, 20, 130], true, true, 1000);
+            $('#demo19 h1').jumble([255, 255, 255], [230, 230, 230], true, true, 1000);
+            $('#demo20 h1').jumble([255, 255, 255], [0, 0, 0], true, true, 1000);
+            $('#demo20 h1').jumble([255, 255, 255], false, true, true, 1000);
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Playing with colors</h1>
+    <div id="container">
+        <div id="demo11" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo12" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo13" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo14" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo15" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo16" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo17" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo18" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo19" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo20" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+        <div id="demo21" class="demo2">
+            <h1>Hello!</h1>
+        </div>
+    </div>
+</body>
+
+</html>
